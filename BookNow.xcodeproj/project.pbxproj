@@ -16,6 +16,7 @@
 		0B7BF44028FDB78100DA07AD /* TicketData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BF43F28FDB78100DA07AD /* TicketData.swift */; };
 		0B7BF44228FDB92400DA07AD /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BF44128FDB92400DA07AD /* Ticket.swift */; };
 		0B7BF44528FDBBB200DA07AD /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BF44428FDBBB200DA07AD /* extension.swift */; };
+		0B7BF44828FDC37B00DA07AD /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BF44728FDC37B00DA07AD /* Tickets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		0B7BF43F28FDB78100DA07AD /* TicketData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketData.swift; sourceTree = "<group>"; };
 		0B7BF44128FDB92400DA07AD /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		0B7BF44428FDBBB200DA07AD /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		0B7BF44728FDC37B00DA07AD /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		0B7BF43828FDB2CA00DA07AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0B7BF44628FDC33F00DA07AD /* cards */,
 				0B7BF43C28FDB4A300DA07AD /* Components */,
 				0B7BF43A28FDB2EC00DA07AD /* TicketView.swift */,
 			);
@@ -101,7 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				0B7BF43D28FDB4C800DA07AD /* CircleBackground.swift */,
-				0B7BF44128FDB92400DA07AD /* Ticket.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -112,6 +114,15 @@
 				0B7BF44428FDBBB200DA07AD /* extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0B7BF44628FDC33F00DA07AD /* cards */ = {
+			isa = PBXGroup;
+			children = (
+				0B7BF44128FDB92400DA07AD /* Ticket.swift */,
+				0B7BF44728FDC37B00DA07AD /* Tickets.swift */,
+			);
+			path = cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 				0B7BF42B28FDB19B00DA07AD /* BookNowApp.swift in Sources */,
 				0B7BF43E28FDB4C800DA07AD /* CircleBackground.swift in Sources */,
 				0B7BF44028FDB78100DA07AD /* TicketData.swift in Sources */,
+				0B7BF44828FDC37B00DA07AD /* Tickets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
