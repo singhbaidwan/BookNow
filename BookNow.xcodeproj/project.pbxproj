@@ -13,6 +13,8 @@
 		0B1BBF3129007797003B23FA /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BBF3029007797003B23FA /* TimeButton.swift */; };
 		0B1BBF3329007999003B23FA /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BBF3229007999003B23FA /* LargeButton.swift */; };
 		0B1BBF3529007C00003B23FA /* SeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BBF3429007C00003B23FA /* SeatView.swift */; };
+		0B1BBF3729007E68003B23FA /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1BBF3629007E68003B23FA /* StatusUI.swift */; };
+		0B7839A02901BDC10005CAB5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B78399F2901BDC10005CAB5 /* RoundButton.swift */; };
 		0B7BF42B28FDB19B00DA07AD /* BookNowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BF42A28FDB19B00DA07AD /* BookNowApp.swift */; };
 		0B7BF42D28FDB19B00DA07AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BF42C28FDB19B00DA07AD /* ContentView.swift */; };
 		0B7BF42F28FDB19F00DA07AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7BF42E28FDB19F00DA07AD /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 		0B1BBF3029007797003B23FA /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
 		0B1BBF3229007999003B23FA /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
 		0B1BBF3429007C00003B23FA /* SeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatView.swift; sourceTree = "<group>"; };
+		0B1BBF3629007E68003B23FA /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		0B78399F2901BDC10005CAB5 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		0B7BF42728FDB19B00DA07AD /* BookNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7BF42A28FDB19B00DA07AD /* BookNowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookNowApp.swift; sourceTree = "<group>"; };
 		0B7BF42C28FDB19B00DA07AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				0B1BBF2E290067CA003B23FA /* DateButton.swift */,
 				0B1BBF3029007797003B23FA /* TimeButton.swift */,
 				0B1BBF3229007999003B23FA /* LargeButton.swift */,
+				0B1BBF3629007E68003B23FA /* StatusUI.swift */,
+				0B78399F2901BDC10005CAB5 /* RoundButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -231,11 +237,13 @@
 				0B1BBF2D29006409003B23FA /* CircleButton.swift in Sources */,
 				0B7BF43B28FDB2EC00DA07AD /* TicketView.swift in Sources */,
 				0B7BF44528FDBBB200DA07AD /* extension.swift in Sources */,
+				0B1BBF3729007E68003B23FA /* StatusUI.swift in Sources */,
 				0B1BBF2B29006165003B23FA /* BookingView.swift in Sources */,
 				0BDE2F8428FF233600D3E688 /* CustomSearchBar.swift in Sources */,
 				0B1BBF2F290067CA003B23FA /* DateButton.swift in Sources */,
 				0B7BF44228FDB92400DA07AD /* Ticket.swift in Sources */,
 				0B7BF42D28FDB19B00DA07AD /* ContentView.swift in Sources */,
+				0B7839A02901BDC10005CAB5 /* RoundButton.swift in Sources */,
 				0BDE2F7D28FF14F600D3E688 /* TabData.swift in Sources */,
 				0BDE2F8228FF21A100D3E688 /* HomeView.swift in Sources */,
 				0BDE2F8628FF258700D3E688 /* ScrollSection.swift in Sources */,
