@@ -48,7 +48,7 @@ struct SeatView: View {
                 StatusUI(color: Color("cyan"),text: "Selected")
             }
             .padding(.top,60)
-            ZStack(alignment: .topLeading) {
+            ZStack(alignment: .bottomLeading) {
                 Circle()
                     .frame(width: 200,height: 230)
                     .foregroundColor(Color("purple"))
@@ -109,7 +109,7 @@ struct SeatView: View {
             .foregroundColor(.white)
             .background(.ultraThinMaterial)
             .padding(.top,50)
-            .offset(y:showButton ? 0 : 250)
+            .offset(y:showButton ? 0 : 400)
         }
         .frame(maxWidth: .infinity,maxHeight: .infinity,alignment: .top)
         .background(Color("backgroundColor"))
